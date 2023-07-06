@@ -1,0 +1,79 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+body{
+    font-family: 'Abel', sans-serif;
+    background-color:#333333;
+    color:whitesmoke;
+}
+
+nav{
+    background-color: black;
+    padding:10px;
+}
+
+nav a{
+    color:dodgerblue;
+    text-decoration:none;
+}
+
+nav ul{
+    list-style-type:none;
+}
+
+nav li{
+    display: inline;
+    margin: 10px;
+}
+
+nav{
+    display:flex;
+}
+
+h1, h2, h3, h4, h5, h6{
+    color:#dbd053;
+}
+
+main{
+    display:flex;
+}
+
+#main-articles{
+    width: 70%;
+    background-color:#666666;
+    border: 1px solid black;
+    border-radius:20px;
+    margin:10px;
+    padding: 20px;
+}
+
+.image-fit{
+    width:100%;
+    height: auto;
+}
+
+#side-bar{
+    width:30%;
+    padding: 50px 20px 20px 20px; 
+    border: 1px solid black;
+    background:linear-gradient(rgb(0,0,0,.5),rgb(0,0,0,.5)) , url('./images/creek.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:cover;
+    margin:10px;
+    border-radius:20px;
+    text-align: center;
+}
+
+#profile-pic{
+    width:75%;
+    border-radius:50%;
+    border: 3px solid whitesmoke;
+}
+
+article p::first-line{
+    font-variant:small-caps;
+    font-size: x-large;
+}
