@@ -71,9 +71,58 @@ main{
     width:75%;
     border-radius:50%;
     border: 3px solid whitesmoke;
+    margin-bottom: 10px;
 }
 
 article p::first-line{
     font-variant:small-caps;
     font-size: x-large;
+}
+
+footer{
+    text-align:center;
+    background-color:black;
+    color:dodgerblue;
+    padding: 20px;
+}
+
+.grey-bg{
+    background: linear-gradient(rgb(0,0,0,.5),rgb(0,0,0,.5));
+    margin-bottom:50px;
+    padding: 25px;
+    border: 4px double #dbd053;
+    border-radius: 20px;
+}
+
+textarea, input{
+    border-radius: 10px;
+    padding:10px;
+    margin-bottom: 10px;
+    background-color: dodgerblue;
+}
+
+input::placeholder, textarea::placeholder{
+    color:#dbd053;
+}
+
+input:valid{
+    background-color: dodgerblue;
+}
+
+button{
+    background-color: dodgerblue;
+    border-radius: 10px;
+    padding: 8px;
+    width:80%;
+    font-weight:bold;
+    margin-top:10px;
+}
+textarea:focus, input:focus{
+    outline:2px solid whitesmoke;
+}
+
+button:hover{
+    background-color:#125699;
+    color:whitesmoke;
+    border-color:whitesmoke;
 }
